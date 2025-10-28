@@ -1,7 +1,10 @@
 # Team-Manipal-Racing-
 For the event, to pass the 1st check, a safety control needs to be implemented for turning on the vehicle:
-That is: (Ignition should be on, break should be pressed and vehicle is in neutral), If any on the provided is not maintained, vehicle should not turn on
+
+That is: (Throttle should not be pressed, break should be pressed and vehicle is in neutral), If any on the provided is not maintained, vehicle should not turn on
+
 To achieve this, we had used a simple and cost effective solution that bagged us innovation award by using 8:1 mux 
+
 S0 - Throttle is dis engaged
 
 S1 - vehicle in neutral position
@@ -18,7 +21,9 @@ used DEEDS software for a simple simulation for validating and proceeed for desi
 Validation of Vehicle dynamics using simulink model:
 To validate our concept and design as per E-Baja specifications, a simulink model is developed and presented for the panel that had secured 2nd prize for validation.
 Specifications:
+
 Battery pack nominal voltage: 48 V (33P,13S)_Lithium Ion type
+
 Fully charged voltage: 56V
 
 Amp hrs: 100 Ah
